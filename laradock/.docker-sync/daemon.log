@@ -1,0 +1,18 @@
+          ok  Starting native_osx for sync workspace-sync
+          ok  workspace-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: workspace-sync
+[2018-05-19 18:23:53 +0900] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:24:14.16 on 19 May 2018
+[2018-05-19 18:23:53 +0900] Sync Log:  [BGN] Updating file storage/logs/laravel.log from /host_sync to /app_sync
+[2018-05-19 18:23:53 +0900] Sync Log:  Failed: The source file /host_sync/storage/logs/laravel.log
+[2018-05-19 18:23:53 +0900] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2018-05-19 18:23:53 +0900] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:24:14.17 on 19 May 2018
+[2018-05-19 18:23:53 +0900] Sync Log:  Synchronization incomplete at 18:24:14  (0 items transferred, 0 skipped, 1 failed)
+[2018-05-19 18:23:53 +0900] Sync Log:    failed: storage/logs/laravel.log
+[2018-05-19 18:23:54 +0900] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:24:15.23 on 19 May 2018
+[2018-05-19 18:23:54 +0900] Sync Log:  [BGN] Updating file storage/logs/laravel.log from /host_sync to /app_sync
+[2018-05-19 18:23:54 +0900] Sync Log:  [END] Updating file storage/logs/laravel.log
+[2018-05-19 18:23:54 +0900] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:24:15.23 on 19 May 2018
+[2018-05-19 18:23:54 +0900] Sync Log:  Synchronization complete at 18:24:15  (1 item transferred, 0 skipped, 0 failed)

@@ -1,0 +1,5 @@
+version: '2'
+
+syncs:
+  workspace-sync:
+    src: ../laravel    # 同期元のディレクトリ

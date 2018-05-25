@@ -1,0 +1,10 @@
+version: '3'
+
+volumes:
+  workspace-sync:
+    external: true
+
+services:
+  workspace:
+    volumes:
+      - workspace-sync:/var/www
